@@ -1,4 +1,4 @@
-package com.softserve.edu;
+package com.softserve.edu.task2;
 import java.util.Scanner;
 import static java.lang.System.in;
 import static java.lang.System.setOut;

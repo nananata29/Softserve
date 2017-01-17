@@ -1,4 +1,4 @@
-package com.softserve.edu;
+package com.softserve.edu.task1;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

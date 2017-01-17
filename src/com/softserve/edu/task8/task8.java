@@ -1,4 +1,4 @@
-package com.softserve.edu;
+package com.softserve.edu.task8;
 
 import java.util.ArrayList;
 import java.util.Scanner;

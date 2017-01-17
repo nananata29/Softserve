@@ -1,4 +1,4 @@
-package com.softserve.edu;
+package com.softserve.edu.task5;
 
 import java.awt.*;
 import java.io.BufferedReader;
