@@ -7,7 +7,7 @@ import java.io.File;
 /**
  * Created by Natalia on 16.01.2017.
  */
-public class ferst {
+public class Ferst {
     private static Scanner scn;
     static String [][] m = new String[5][3];
 

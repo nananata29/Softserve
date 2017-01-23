@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Created by Natalia on 29.12.2016.
  */
-public class task1 {
+public class Task1 {
     public static void main(String[] args) throws FileNotFoundException {
         try {
             int n = Integer.parseInt(args[0]);

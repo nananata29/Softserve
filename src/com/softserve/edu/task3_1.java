@@ -9,14 +9,14 @@ import java.util.TreeMap;
 /**
  * Created by Natalia on 17.01.2017.
  */
-public class task3_1 {
+public class Task3_1 {
     public static void main(String[] args) throws Exception {
         BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Map<Double, String> map = new TreeMap<Double, String>(Collections.<Double>reverseOrder());
         while (true) {
             try {
-                System.out.println("Enter name and a length of triangle side : ");
+                System.out.println("Enter name and a length of Triangle side : ");
                 String str = reader.readLine();
                 if (str.equals("")) break;
                 String[] sides = str.split(",");

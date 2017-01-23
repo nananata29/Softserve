@@ -15,7 +15,7 @@ import static javax.xml.bind.DatatypeConverter.parseString;
 /**
  * Created by Natalia on 06.01.2017.
  */
-public class task3 {
+public class Task3 {
     private String name;
     private double a;
     private  double b;
@@ -27,17 +27,17 @@ public class task3 {
         Map<Double, String> map = new TreeMap<Double, String>(Collections.<Double>reverseOrder());
         while (true) {
             try {
-                System.out.println("Enter name and a length of triangle side : ");
+                System.out.println("Enter name and a length of Triangle side : ");
                 String str = reader.readLine();
                 if (str.equals("")) break;
                 String[] splittedString = str.split(",");
                 String name = splittedString[0];
                 if(name.isEmpty()){
-                    System.out.println("No name of the triangle!");
+                    System.out.println("No name of the Triangle!");
                 }
                 if(splittedString.length != 4){
                     System.out.println("Wrong number of arguments. " +
-                            "You must enter a name and a length of 3 sides of triangle.");
+                            "You must enter a name and a length of 3 sides of Triangle.");
                 }
                 try {
                     Double a = Double.parseDouble(splittedString[1]);
@@ -47,17 +47,17 @@ public class task3 {
                     Double s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
                     map.put(s, name);
                     if (a > (c + b)) {
-                        System.out.println("This triangle does not exist");
+                        System.out.println("This Triangle does not exist");
                     }
                     if(b > (a+b)){
-                        System.out.println("This triangle does not exist");
+                        System.out.println("This Triangle does not exist");
                     }
                     if (c > (a+b)){
-                        System.out.println("This triangle does not exist");
+                        System.out.println("This Triangle does not exist");
                     }
                 }
                 catch (NumberFormatException numbFormatExc){
-                    System.out.println("Side of the triangle is not a number!");
+                    System.out.println("Side of the Triangle is not a number!");
                 }
 
                 System.out.println("================= Triangles list: ===================");

@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
  C:\Program Files\Java\jdk1.8.0_111
  */
 
-public class task4 {
+public class Task4 {
 
     public static void main(String[] args) {
 

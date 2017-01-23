@@ -6,8 +6,8 @@ import java.util.Scanner;
 /**
  * Created by Natalia on 12.01.2017.
  */
-public class task8 {
-    public static void main(String[] args) {
+public class Task8 {
+    public void main (String[] args) {
 
         ArrayList fibonacciNumbers = new ArrayList();
         try {

@@ -12,7 +12,7 @@ import java.util.Arrays;
  *Счастливые билеты.
 
  */
-public class task6 {
+public class Task6 {
 
     public static int bb(String in) throws IOException {
         int t = 0, m = 0, p = 0;
